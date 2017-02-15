@@ -4,6 +4,7 @@
 public class Student extends Person {
     String major;
 
+
     public Student(String name, String emailAddress, String major) {
         super(name, emailAddress);
         this.major = major;
